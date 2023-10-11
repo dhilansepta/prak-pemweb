@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+}
+.sectionmargin th, tr, label{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: azure;
+    text-decoration: none;
+    text-align: center;
+}
+
+.sectionmargin table{
+    width: 100%;
+}
+
+.pertanyaan1 {
+    margin-bottom: 20px;
+}
+
+.pertanyaan1 input{
+    color: azure;
+    border-color: azure;
+}
+
+.pertanyaan2 input {
+    color: azure;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 2px;
+    padding: 5px;
+    border-color: azure;
+}
+
+li, a{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: azure;
+    text-decoration: none;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    color: azure;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#connect {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    color: azure;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.profileheader {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: auto;
+}
+
+.logo {
+    cursor: pointer;
+    width: 120px;
+    height: 110px;
+    border-radius: 100%;
+    margin-right: auto;
+}
+
+.datamahasiswa {
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nama {
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: azure;
+    text-decoration: none;
+}
+
+.nim {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: azure;
+    text-decoration: none;
+}
+
+.video {
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: aqua;
+}
+
+.sectionmargin {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.headertext {
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: azure;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.intro {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 50px;
+}
+
+.group-data {
+    width: auto;
+    text-align: justify;
+}
+
+.social {
+    width: 50px;
+    height: 50px;
+    background-color: azure;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.group-social {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
